@@ -1,1 +1,23 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        Grafica 1 
+        
+        <app-dona [leyenda]="leyenda1[0]" 
+                   [labels]="labels1"
+                   [data]="data1"></app-dona>
+     </div>
+     <div class="col-6">
+        Grafica 2
+       <app-dona [leyenda]="leyenda1[1]"></app-dona>
+     </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        Grafica 3
+        <app-dona [leyenda]="leyenda1[2]"></app-dona>
+     </div>
+     <div class="col-6">
+        Grafica 4
+        <app-dona [leyenda]="leyenda1[3]"></app-dona>
+     </div>
+</div>
